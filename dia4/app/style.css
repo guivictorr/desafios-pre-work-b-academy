@@ -6,3 +6,18 @@ body {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.cars {
+  display: flex;
+}
+
+.cars-form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 250px;
+}
+
+table {
+  width: 100%;
+}

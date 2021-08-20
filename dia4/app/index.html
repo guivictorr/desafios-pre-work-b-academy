@@ -7,6 +7,36 @@
     <title>Dia 4</title>
   </head>
   <body>
+    <main class="cars">
+      <form class="cars-form" data-js="cars-form">
+        <label for="image">Imagem (URL)</label>
+        <input id="image" type="text">
+        <label for="marca">Marca</label>
+        <input id="marca" type="text">
+        <label for="ano">Ano</label>
+        <input id="ano" type="text"/>
+        <label for="placa">Placa</label>
+        <input type="text" id="placa">
+        <label for="cor">Cor</label>
+        <input type="color" id="cor">
+        <button type="submit">Enviar</button>
+      </form>
+      <p data-js="error"></p>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Ações</th>
+            <th>Imagem</th>
+            <th>Marca</th>
+            <th>Ano</th>
+            <th>Placa</th>
+            <th>Cor</th>
+          </tr>
+        </thead>
+        <tbody data-js="table">
+        </tbody>
+      </table>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
