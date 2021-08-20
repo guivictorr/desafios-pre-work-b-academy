@@ -48,14 +48,7 @@ function getInputValues(inputs) {
       type: input.type
     }
 
-    if (isImage) {
-      return {
-        ...inputData,
-        type: 'image'
-      }
-    }
-
-    return inputData;
+    return isImage ? { ...inputData, type: 'image' } : inputData;
   })
 }
 
